@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
+
+body{
+ background-color: white;   
+ color: black;
+ margin: 0;
+ top: 0;
+ 
+}
+
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 72px;
+    background-color: white;
+    border-radius: 0px 0px 5px 5px;
+    border-style:none;
+    box-shadow: 0px 0px 7px grey;
+    padding: 0px 10px 0px 10px;
+}
+
+span{
+    display: flex;
+    margin-left: 0.5rem;
+    border: 1px solid black;
+    padding: 7px 14px;
+    height: 100%;
+    align-items: center;
+    font-family: 'Gugi', cursive;
+}
+
+.header a{
+    text-decoration: none;
+    color: black;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    border-radius: 25px 25px 25px 25px;
+    width: 600px;
+    height: 45px;
+    padding-left: 10px;
+    border: 2px solid black;
+}
+
+.search-container form{
+    display: flex;
+    width: 95%;
+    flex-direction: row;
+}
+
+.search-container input{
+    
+    width: 95%;
+    border: none;
+    outline: none;
+}
+
+.search-container button{
+    border: none;
+    outline: none;
+    background:none;
+
+}
+
+.login_container{
+    display: flex;
+    flex-direction: column ;
+    height: calc(100vh - 72px);
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_container form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    width: 25vw;
+}
+
+.login_container form *{
+    margin-top: 10px;
+    padding: 5px;
+    height: 5vh;
+    width: 24.5vw;
+    box-shadow: 0px 0px 7px grey;
+    border-style: ridge;
+    outline: none;
+    border: none;
+}
+
+.login_container button{
+    background-color: #7325a3;
+    color: white;
+    width: 24.5vw;
+}
+
+h1{
+    font-size: 30px;
+    align-items: center;
+    font-weight: bold;
+    font-family: 'Noto Serif', serif;
+    margin: 2px;
+
+}
+
+
+h2 a{
+    text-decoration: none;
+    font-family: 'Noto Serif', serif;
+    font-size: 16px;
+    margin-bottom: none;
+    
+}
+
+.login_container span {
+    border: none;
+    height: 2px;
+    padding: 2px;
+    margin: 2px;
+    
+}
+.other a{
+   text-decoration: none;
+
+}
+
+.other span{
+    margin-top: 1rem;
+    justify-content: center;
+}
+
+.signup_other span{
+        margin-top: 1rem;
+}
